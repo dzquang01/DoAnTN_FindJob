@@ -77,3 +77,17 @@ Password char(10),
 ID_Role int,
 foreign key(ID_Role) references role(ID_Role)
 )
+
+--------Login
+create table login
+(
+Email nvarchar(50),
+Password nvarchar(50)
+)
+---------Gmail
+create table gmail(
+from nvarchar(50),
+to nvarchar(50),
+subject nvarchar(50),
+body nvarchar(50)
+)
